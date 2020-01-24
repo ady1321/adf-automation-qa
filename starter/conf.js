@@ -5,6 +5,7 @@ require("babel-register")({
 });
 
 exports.config = {
+  seleniumAddress: 'http://localhost:4444/wd/hub',
   specs: ['spec.js'],
   framework: 'jasmine',
 
@@ -13,7 +14,7 @@ exports.config = {
       browser.manage().window().setSize(1024, 800);
 
       // better jasmine 2 reports...
-      const SpecReporter = require('jasmine-spec-reporter');
+      const SpecReporter = require('jasmine-spec-reporter').SpecReporter;
       jasmine.getEnv().addReporter(new SpecReporter({displayStacktrace: 'specs'}));
   },
 

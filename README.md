@@ -51,3 +51,17 @@ The framework has already been setup in the /starter folder, please add your tee
 ### Some info about ADF
 * https://github.com/Alfresco/alfresco-ng2-components
 * https://alfresco.github.io/adf-component-catalog/
+
+
+1. ***Description*** Describes of how to run the automation test
+-> Import the project in eclipse or any other IDE
+-> Open Node.js command prompt and run Selenium webdriver by executing command webdriver-manager start
+-> Open another Node.js command prompt and go inside the folder where project is located
+-> Run command protractor conf.js
+-> It will open the browser and test will run
+2. ***Explanation*** Describes the choice made in the solution
+I had used protractor along with Jasmine framework
+3. ***Prerequisites*** List here what/if anything needs to be installed
+-> All selenium Jar files needs to be added in the project
+-> Node.js and protactor needs to be installed in system
+-> Open Node.js command prompt and update the webdriver manager by running command webdriver-manager update 
