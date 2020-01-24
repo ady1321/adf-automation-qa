@@ -56,7 +56,7 @@ The framework has already been setup in the /starter folder, please add your tee
 1. ***Description*** Describes of how to run the automation test
 -> Import the project in eclipse or any other IDE
 -> Open Node.js command prompt and run Selenium webdriver by executing command webdriver-manager start
--> Open another Node.js command prompt and go inside the folder where project is located
+-> Open another Node.js command prompt and go inside the folder where project's conf.js file is located
 -> Run command protractor conf.js
 -> It will open the browser and test will run
 2. ***Explanation*** Describes the choice made in the solution
